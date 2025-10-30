@@ -1,0 +1,68 @@
+# ============================================
+# Django & Python Project .gitignore
+# ============================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Migrations (optional: comment out if you want to track)
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Coverage & testing
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.cache
+.pytest_cache/
+
+# Build & packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# pipenv / poetry / pyenv
+Pipfile.lock
+poetry.lock
+.python-version
+
+# Other config
+*.bak
+*.swp
+
+# Temporary files
+tmp/
+temp/
